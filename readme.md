@@ -28,7 +28,9 @@ PASSWORD = "your_wifi_password"
 根据需要更新 `url` 变量指向你的远程 `main.py` 文件地址:
 ```python
 url = 'https://your_remote_repo/main.py'
+# 类似于https://gitee.com/username/repo/raw/master/main.py
 ```
+> 注意：raw是有效的，不能直接blob访问，本质上使用了爬虫爬取文件
 
 ## 使用方法
 
@@ -46,6 +48,5 @@ url = 'https://your_remote_repo/main.py'
 - 脚本中的垃圾回收调用有助于减少内存碎片，适用于资源有限的设备。
 - 如果 Wi-Fi 连接不稳定，可能需要增加重试机制来提高脚本的健壮性。
 
-## 示例输出
 
 
